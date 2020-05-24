@@ -17,7 +17,7 @@ var ip = "The ip is, **ContraEvents.net**";
 var invite = 'https://discord.gg/ptcevCF';
 var status = "We are looking for staff!"
 
-bot.login(process.emv.token);
+bot.login(process.env.token);
 
 bot.on('ready', () =>{
     console.log('im ready');
